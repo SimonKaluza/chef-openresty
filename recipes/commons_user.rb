@@ -30,4 +30,5 @@ user node['openresty']['user'] do
   shell '/bin/false'
   home '/var/www'
   gid node['openresty']['group']
+  ignore_failure true
 end
