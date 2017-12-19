@@ -26,7 +26,7 @@ default['openresty']['source']['file_prefix'] = 'openresty'
 default['openresty']['source']['checksum']    = '7f9ca62cfa1e4aedf29df9169aed0395fd1b90de254139996e554367db4d5a01'
 #use %{} for delayed interpolation
 default['openresty']['source']['name']        = "%{file_prefix}-%{version}"
-default['openresty']['source']['url']         = "http://agentzh.org/misc/nginx/%{name}.tar.gz"
+default['openresty']['source']['url']         = "https://openresty.org/download/%{name}.tar.gz"
 
 # Directories
 default['openresty']['dir']                   = '/etc/nginx'
